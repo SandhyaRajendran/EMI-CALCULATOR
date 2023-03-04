@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <h2>EMI CALCULATOR</h2>
+        <div class="card">
+            <div class="btn-container">
+                <button>HOME LOAN</button>
+                <button>PERSONAL LOAN</button>
+                <button>CAR LOAN</button>
+            </div>
+            <div class="border">
+                <div class="insidetheBox">
+                    <form action="">
+                        <label for="">Home Loan </label>
+                        <input id="homeLoan" type="number" placeholder="PLEASE ENTER HOMELOAN VALUE"><span>₹</span>
+                        <input id="homeLoanInrange" type="range" min="0" max="20000000" value="0">
+                        <br>
+                        <label for="">Interest Rate</label>
+                        <input id="intrestRate" type="number" placeholder="PLEASE INTREST RATE"><span>%</span>
+                        <input id="intrestRateInrange" type="range" min="0" max="200" value="0">
+                        <br>
+                        <label for="">Loan Tenture</label>
+                        <input id="loanTenture" type="number" placeholder="PLEASE ENTER VALUES IN MONTH"><button class="mbtn">MON</button><button class="ybtn">YEAR</button>
+                        <input id="loanTentureInRange" type="range" min="0" max="3600" value="0">
+                        <br>
+                    </form>
+                    <div class="totals">
+                        <h4>Loan EMI</h4>
+                        <h5 id="total">loan emi</h5>
+                        <h4>Total Intrest Payable</h4>
+                        <h5 id="totalandPer">total intrest payable</h5>
+                        <h4>Total Payment <br>(Principal + Interest)</h4>
+                        <h5 id="diffAmount">total payment</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="border show">
+                <div class="insidetheBox">
+                    <form action="">
+                        <label for="">Home Loan </label>
+                        <input id="homeLoan" type="number"><span>₹</span>
+                        <input id="homeLoanInrange" type="range" min="0" max="20000000">
+                        <br>
+                        <label for="">Interest Rate</label>
+                        <input id="intrestRate" type="number"><span>%</span>
+                        <input id="intrestRateInrange" type="range" min="0" max="20">
+                        <br>
+                        <label for="">Loan Tenture</label>
+                        <input id="loanTenture" type="number"><button>M</button><button>Y</button>
+                        <input id="loanTentureInRange" type="range" min="0" max="360">
+                        <br>
+                    </form>
+                    <div class="totals">
+                        <h4>Loan EMI</h4>
+                        <h5>loan emi</h5>
+                        <h4>Total Intrest Payable</h4>
+                        <h5>total intrest payable</h5>
+                        <h4>Total Payment <br>(Principal + Interest)</h4>
+                        <h5>total payment</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="border show">
+                <div class="insidetheBox">
+                    <form action="">
+                        <label for="">Home Loan </label>
+                        <input id="homeLoan" type="number"><span>₹</span>
+                        <input id="homeLoanInrange" type="range" min="0" max="20000000">
+                        <br>
+                        <label for="">Interest Rate</label>
+                        <input id="intrestRate" type="number"><span>%</span>
+                        <input id="intrestRateInrange" type="range" min="0" max="20">
+                        <br>
+                        <label for="">Loan Tenture</label>
+                        <input id="loanTenture" type="number"><button>M</button><button>Y</button>
+                        <input id="loanTentureInRange" type="range" min="0" max="360">
+                        <br>
+                    </form>
+                    <div class="totals">
+                        <h4>Loan EMI</h4>
+                        <h5>loan emi</h5>
+                        <h4>Total Intrest Payable</h4>
+                        <h5>total intrest payable</h5>
+                        <h4>Total Payment <br>(Principal + Interest)</h4>
+                        <h5>total payment</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

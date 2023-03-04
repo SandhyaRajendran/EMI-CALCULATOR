@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mainContainer{
+    max-width: 1440px;
+    width: 60%;
+    margin: auto;
+}
+.mainContainer>h2{
+    text-align: center;
+    color: blue;
+}
+.card{
+    border: 1px solid black;
+    height: 575px;
+    width: 70%;
+    border: 0;
+    margin-top: 2%;
+    margin-left: 14%;
+}
+.btn-container{
+    padding: 4%;
+}
+.btn-container button{
+    border: 1px solid gray;
+    height: 35px;
+    width: 32%;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: blue;
+}
+.border{
+    border: 1px solid gray;
+    height: 470px;
+    width: 94%;
+    margin-left: 3%;
+}
+.insidetheBox{
+    padding: 3%;
+    margin: 3%;
+}
+input{
+    height: 25px;
+    width: 60%;
+}
+span{
+    padding: 1%;
+    background-color: white;
+    border: 1px solid rgb(44, 40, 40);
+}
+
+.insidetheBox button{
+    height: 30px;
+    width: 9%;
+    background-color: rgb(8, 8, 169);
+    color: black;
+    font-weight: 600;
+}
+input[type="range"] {
+    margin: 0%;
+    width: 100%;
+    padding: 2%;
+}
+.totals>h4{
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.totals{
+    border: 1px solid black;
+    height: 190px;
+}    
+.totals>h5{
+    text-align: center;
+    padding-top: 3px;
+    font-size: 16px;
+}
+.card{
+    border: 1px solid white;
+    box-shadow: 7px 7px 24px rgb(122, 120, 151)
+}
+.show{
+    display: none;
+}
